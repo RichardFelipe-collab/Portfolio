@@ -1,10 +1,13 @@
+import { ContainerLeft } from "./style"
 
-export function PersonalInfo(){
-    return(
-        <section>
+import image from '../assets/richard.png'
+
+export function PersonalInfo() {
+    return (
+        <ContainerLeft>
             <div>
-                <img src="" alt="" />
+                <img src={image} alt="profile" />
             </div>
-        </section>
+        </ContainerLeft>
     )
 }
