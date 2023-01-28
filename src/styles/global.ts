@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root{
@@ -8,21 +8,26 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     *{
-        box-sizing: border-box;
+        box-sizing: border-box;  
+        color: white; 
+        font-family: 'Inter';
         
     }
-
-    
 
     body{
         flex-direction: row;
         background-color: var(--background);
+        -webkit-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;
     }
 
     .container{
         display: flex;
         flex-direction: row;
+        padding-left: 5rem;
+        
     }
+
+   
 
    
     
@@ -30,4 +35,4 @@ export const GlobalStyle = createGlobalStyle`
     
 
 
-`
+`;

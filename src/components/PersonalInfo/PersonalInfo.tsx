@@ -8,6 +8,7 @@ export function PersonalInfo() {
             <div>
                 <img src={image} alt="profile" />
             </div>
+            <span>teste</span>
         </ContainerLeft>
     )
 }
