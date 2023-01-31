@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const ContainerLeft = styled.section`
-  width: 35rem;
-  height: 80rem;
+  width: 25rem;
+  height: 28rem;
   padding: 2rem;
   background-color: var(--card);
   border-radius: 20px;
@@ -12,6 +12,7 @@ export const ContainerLeft = styled.section`
   .profile {
     width: 9rem;
     border-radius: 80px;
+    margin-left: 20%;
   }
 
   span {
@@ -20,12 +21,18 @@ export const ContainerLeft = styled.section`
 
   .info{
     align-items: baseline;
+    
   }
+  
   a {
    display: flex;
    align-items: center;
-   gap: 2rem;
+   gap: 1rem;
    text-decoration: none;
+  }
+
+  .link{
+    border: solid 1px;
   }
   
 `;

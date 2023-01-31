@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const ProjectsContainer = styled.div`
     width: 90rem ;
     margin-top: 2%;
-    margin-left: 8%;
-    padding: 3.5rem 3rem ;
-    border: solid 1px;
+    margin-left: 2%;
+    padding: 2.5rem 1rem ;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    color: #f12711 !important; /* fallback for old browsers */
+ 
     
 
     .card{

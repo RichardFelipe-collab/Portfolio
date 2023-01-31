@@ -13,13 +13,19 @@ export function PersonalInfo() {
             </div>
             <div className="info">
                 <h1>Richard Felipe da S. Oliveira</h1>
-                Desenvolvedor FullStack
+             <h3>Desenvolvedor FullStack</h3> 
             </div>
-            <a href="https://github.com/RichardFelipe-collab" target="_blank"><img width="38px" height="38px" src={icon_github} alt="github" /><p>RichardFelipe-collab</p></a>
-            <br />
-            <a href="https://www.linkedin.com/in/richard-felipe-da-silva-oliveira-1ab55a135/" target="_blank">
-                <img width="38px" height="38px" src={icon_linkedin} alt="" />
-                <p>Richard Felipe da Silva</p></a>
+            <div className="links">
+                <a href="https://github.com/RichardFelipe-collab" target="_blank">
+                    <img width="38px" height="38px" src={icon_github} alt="github" />
+                    <p>RichardFelipe-collab</p>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/richard-felipe-da-silva-oliveira-1ab55a135/" target="_blank">
+                    <img width="38px" height="38px" src={icon_linkedin} alt="" />
+                    <p>Richard Felipe da Silva</p>
+                </a>
+            </div>
         </ContainerLeft>
     )
 }
