@@ -14,8 +14,6 @@ export const ProjectsContainer = styled.div`
 
   .card {
     width: 100%;
-    //min-width: 70%;
-    //border: solid 1px;
     border-radius: 20px;
     padding: 2rem;
     margin: 2rem;
@@ -34,15 +32,24 @@ export const ProjectsContainer = styled.div`
   }
 
   .header{
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 3%;
+    background-color: var(--card);
+    padding: 1rem;
+    border-radius: 10px;
   }
 
   @media (max-width: 1120px) {
     width: 50rem;
     margin-top: 2%;
 
+
     padding: 3.5rem;
 
+
+    .header{
+        width: 100%;
+    }
     .row {
       display: block;
     }
@@ -69,6 +76,10 @@ export const ProjectsContainer = styled.div`
     }
     .card > img {
       width: 100%;
+    }
+    .header{
+        margin-top: 2%;
+        margin-left: 8%;
     }
   }
 `;
