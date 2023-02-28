@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerLeft = styled.section`
-  width: 25rem;
-  height: 28rem;
+  width: 100%;
   padding: 2rem;
   background-color: var(--card);
   border-radius: 20px;
@@ -33,6 +32,10 @@ export const ContainerLeft = styled.section`
 
   .link{
     border: solid 1px;
+  }
+
+  @media (max-width: 1120px) {
+    
   }
   
 `;

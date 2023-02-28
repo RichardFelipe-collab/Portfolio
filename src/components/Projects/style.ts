@@ -1,53 +1,74 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-    width: 90rem ;
-    margin-top: 2%;
-    margin-left: 2%;
-    padding: 2.5rem 1rem ;
+  width: 90rem;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 2.5rem 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #f12711 !important;
+  display: block;
+  /* fallback for old browsers */
+
+  .card {
+    width: 100%;
+    //min-width: 70%;
+    //border: solid 1px;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: var(--card);
+  }
+
+  .row {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    color: #f12711 !important; /* fallback for old browsers */
- 
-    
+  }
+  span {
+    font-size: 80%;
+  }
 
-    .card{
-        width: 100%;
-        //min-width: 70%;
-        //border: solid 1px;
-        border-radius: 20px;
-        padding: 2rem;
-        margin: 2rem;
-        background-color: var(--card);
-    }
+  .card > img {
+    width: 100%;
+  }
 
-    span{
-        font-size: 80%;
-    }
+  .header{
+    margin-left: 10%;
+  }
 
-    .card> img{
-        width: 100%;
-    }
-
-    @media (max-width: 1120px) {
+  @media (max-width: 1120px) {
     width: 50rem;
     margin-top: 2%;
-    margin-left: 8%;
+
     padding: 3.5rem;
-    border: solid 1px;
-    display: block;
-    .card{
-        width: 80%;
-        //border: solid 1px;
-        //padding-left: 2rem;
-        //margin: 2rem;
-        background-color: var(--card);
-    }
-    .card > img{
-        width: 70%;
-    }
 
+    .row {
+      display: block;
     }
+    .card {
+      width: 80%;
+      background-color: var(--card);
+    }
+    .card > img {
+      width: 70%;
+    }
+  }
 
-`
+  @media (max-width: 900px) {
+    width: 105%;
+
+    margin-top: 2%;
+    margin-left: -10%;
+    padding: 0;
+    align-items: flex-end;
+    color: #f12711 !important;
+    .card {
+      width: 100%;
+      background-color: var(--card);
+    }
+    .card > img {
+      width: 100%;
+    }
+  }
+`;

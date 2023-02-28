@@ -13,7 +13,7 @@ export function PersonalInfo() {
             </div>
             <div className="info">
                 <h1>Richard Felipe da S. Oliveira</h1>
-             <h3>Desenvolvedor FullStack</h3> 
+             <h3>FullStack Developer</h3> 
             </div>
             <div className="links">
                 <a href="https://github.com/RichardFelipe-collab" target="_blank">

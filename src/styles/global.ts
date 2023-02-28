@@ -23,11 +23,36 @@ export const GlobalStyle = createGlobalStyle`
     .container{
         display: flex;
         flex-direction: row;
-        padding-left: 5rem;
+        padding-left: 1rem;
         
     }
 
-   
+    .aside{
+        width: 30%;   //min-width: 15%;
+    }
+    .projects{
+        width: 10rem;
+    }
+
+    @media (max-width: 900px) {
+        .container{
+            width: 25rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        
+        
+    }
+    .aside{
+        width: 25rem;
+        //margin: 0 auto;  
+    }
+    }
+
+
+
+    
+
 
    
     
