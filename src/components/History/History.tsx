@@ -11,7 +11,7 @@ export function History() {
         </ul>
        
         <ul>
-          <li><h4>Sistema Para Internet</h4>
+          <li><h4>Sistemas Para Internet</h4>
           Jan/2021 - Dez/2022 
           </li>
         </ul>
